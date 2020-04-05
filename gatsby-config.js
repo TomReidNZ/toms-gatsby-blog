@@ -41,8 +41,10 @@ module.exports = {
     {
       resolve: "gatsby-transformer-remark",
       options: {
-        "excerpt_separator": `<!-- end -->`,
         plugins: [
+          {
+            resolve: `gatsby-remark-relative-images`
+          },
           {
             resolve: "gatsby-remark-images",
             options: {
@@ -52,9 +54,9 @@ module.exports = {
           {
             resolve: "gatsby-remark-responsive-iframe"
           },
-          "gatsby-remark-prismjs",
           "gatsby-remark-copy-linked-files",
-          "gatsby-remark-autolink-headers"
+          "gatsby-remark-autolink-headers",
+          "gatsby-remark-prismjs"
         ]
       }
     },
@@ -71,6 +73,7 @@ module.exports = {
       }
     },
     "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
     "gatsby-plugin-catch-links",
     "gatsby-plugin-twitter",
     "gatsby-plugin-sitemap",
