@@ -4,7 +4,7 @@ This is my template for a simple gatsby blog. To get started clone this repo, ma
 
 ## Todo
 
-* Address issues in accessibility audit
+* Address issues in accessibility
 * Clean up the CSS (fully migrate to grid)
 * Finish writing base content
 * Write guide on deploying with netlify (awesome)
