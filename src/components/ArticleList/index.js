@@ -98,7 +98,7 @@ const ArticleList = ({ title, articles, pagination }) => {
                 <div className="desktop-container">
                 <Card.Title>
                   <h4>
-                    <Link to={article.path} key={article.title}>
+                    <Link to={`/${article.path}`} key={article.title}>
                       <div id="title-article">{article.title}</div>
                     </Link>
                   </h4>
@@ -116,7 +116,7 @@ const ArticleList = ({ title, articles, pagination }) => {
                 <div className="article-preview">{article.excerpt}</div>
                 <div className="read-more">
                   <Link
-                    to={article.path}
+                    to={`/${article.path}`}
                     key={article.title}
                     aria-label={`Read more about ${article.title}`}
                   >

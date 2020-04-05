@@ -26,10 +26,10 @@ const Footer = () => (
         <div className="footer-tag-container">
           <ul className="tag-list topics-tags-list">
             {topicsToLoad.map(item => (
-              <li className="topic-tag-button" key={item}>
+              <li className="topic-tag-button" key={item.slug}>
                 <Link
                   className="article-badge-link"
-                  to={`topics/${item.slug}`}
+                  to={`/topics/${item.slug}`}
                   aria-pressed="true"
                 >
                   <div className="badge badge-pill badge-light article-list-button">
