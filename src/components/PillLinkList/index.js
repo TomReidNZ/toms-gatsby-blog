@@ -8,7 +8,7 @@ const PillLinkList = ({ items, getItemRoute}) => {
   return (
     <ul className="tag-list topics-tags-list">
       {items.map(item => (
-        <li className="topic-tag-button" key={item}>
+        <li className="topic-tag-button" key={item.slug}>
           <Link
             className="article-badge-link"
             to={getItemRoute(item)}
