@@ -10,7 +10,7 @@ const PillLinkList = ({ items, getItemRoute}) => {
         <li className="topic-tag-button" key={Math.random()}>
           <Link
             className="article-badge-link"
-            to={getItemRoute(item)}
+            to={`/${getItemRoute(item)}`}
             aria-pressed="true"
           >
             <div

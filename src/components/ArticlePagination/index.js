@@ -29,7 +29,7 @@ const ArticlePagination = ({
             "active": currentPage === item.index
           })}
         >
-          <Link to={item.path} className="page-link">
+          <Link to={`/${item.path}`} className="page-link">
             {item.index}
           </Link>
         </li>
