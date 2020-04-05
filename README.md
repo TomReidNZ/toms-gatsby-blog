@@ -4,11 +4,15 @@ This is my template for a simple gatsby blog. To get started clone this repo, ma
 
 ## Todo
 
-* Clean up the node modules
+* Address issues in accessibility audit
 * Clean up the CSS (fully migrate to grid)
 * Finish writing base content
 * Write guide on deploying with netlify (awesome)
 * Upload my content
+
+## Done
+
+* Clean up the node modules
 
 ## Reach out
 
