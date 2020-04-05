@@ -1,0 +1,145 @@
+@import "src/styles/variables.scss";
+
+.post-list__item {
+  padding: 0 0 20px 0;
+}
+.article-list-button{
+  font-size:12px;
+}
+#links:hover,
+#title-article:hover {
+  color: #10aee8 !important;
+}
+.card-body a {
+  text-decoration: none;
+}
+
+#links:active,
+#title-article:active{
+  color: #026D96 !important;
+}
+.badge-light:hover{
+  background-color: #10aee8 !important;
+}
+.article-list-button:active{
+  background-color: #026D96 !important;
+}
+.article-list-button{
+color:#e4e4e4;
+}
+
+@media only screen and (min-width: 568px) {
+  .post-list__item {
+    padding: $grid-gutter-width 0;
+  }
+}
+.blog-card {
+  background-color: #242424;
+  padding: 15px;
+  color: #e4e4e4;
+}
+.badge-pill {
+  border-radius: 9px;
+}
+.article-date {
+  color: #e4e4e4;
+  float: right;
+  // width: auto;
+  font-size: 14px;
+  width: 100%;
+  margin: 15px 0 15px 0;
+}
+.card-title {
+  width: calc(100% - 90px);
+  float: left;
+}
+.article-preview {
+  width: 100%;
+  float: left;
+  font-size: 11pt;
+  font-weight: 300;
+  color: #e4e4e4;
+  line-height: 19px;
+  margin-bottom: 15px;
+}
+.topics-tags-list {
+  width: auto;
+  float: left;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.topic-tag-button {
+  margin: 5px 15px 5px 0;
+  float: left;
+  list-style: none;
+  color: #e4e4e4;
+}
+.read-more {
+  float: left;
+  font-size:14px;
+  font-weight:600 !important;
+}
+.badge-light {
+  color: #e4e4e4;
+  background-color: #444444;
+  padding: 6px 20px;
+  font-weight: bold;
+  transition: background-color 1s;
+
+}
+
+.main-page-body {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.card-title {
+  margin-bottom: 0;
+  width: 100%;
+}
+h4 {
+  margin-bottom: 0;
+}
+#links {
+  color: #e4e4e4;
+  transition: color 1s;
+}
+#title-article {
+    font-weight:bold;
+    color: #e4e4e4;
+    transition: color 1s;
+
+}
+@media only screen and (min-width: 992px) {
+  .article-date{
+    width:auto;
+    float:right;
+    margin-top:7px;
+  }
+  .desktop-container{
+    width:100%;
+    min-height:28px;
+    display:block;
+  }
+.card-title{
+  width:auto;
+}
+.card-body{
+  padding:25px 25px;
+}
+.topics-tags-list{
+  margin:10px 0 20px 0;
+}
+.post-list__item{
+  padding-bottom:0;
+  padding-top:23px
+}
+#title-article {
+  font-weight:600;
+  color: #ffffff;
+
+}
+
+}
+#artificial-intelligence{
+  background-color:#10aee8;
+}

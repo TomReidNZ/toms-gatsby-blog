@@ -1,0 +1,108 @@
+.footer {
+  justify-content: center;
+  align-content: center;
+  padding: 10px 5px 5px;
+}
+
+.notice-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+@media (max-width: 640px - 1px) {
+  .notice-container {
+    justify-content: space-around;
+  }
+}
+
+.notice-container h4 {
+  text-align: center;
+  margin: 0;
+}
+.footer {
+  height: auto;
+}
+#footer-container {
+  padding-left: 36px;
+  padding-right: 36px;
+}
+.footer .footer-border-container {
+  border-top: 1px solid rgba(16, 174, 232, 0.5);
+  padding-top: 25px;
+}
+.footer-tag-container {
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    display: flex;
+  }
+@media (min-width: 768px) {
+  #footer-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .footer-tag-container {
+    max-width: 480px;
+  }  
+}
+.footer .topics-tags-list {
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  -webkit-box-pack:center;
+}
+@media only screen and (min-width: 992px) {
+  .footer .topics-tags-list {
+    margin-bottom: 35px;
+  }
+  .SEO-Container {
+    margin-bottom: 35px;
+  }
+  .footer-tag-container {
+    max-width: 560px;
+  }  
+
+}
+.SEO-Container {
+  margin-bottom: 25px;
+}
+.tiny-footer-border {
+  display: none;
+}
+@media only screen and (max-width: 417px) {
+  #footer-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .footer .footer-border-container {
+    border-top: none;}
+  
+  .tiny-footer-border {
+    display: flex !important;
+    height: 1px;
+    // width: calc100%;
+    border-top: 1px solid rgba(16, 174, 232, 0.5);
+    margin-left:35px;
+    margin-right:35px;
+  }
+}
+@media only screen and (max-width: 344px) {
+    .footer-button {
+      margin-left: 10px !important;
+      margin-right: 10px !important;
+    }
+}
+@media only screen and (max-width: 305px) {
+    .footer-button {
+      margin-left: 5px !important;
+      margin-right: 5px !important;
+    }
+}

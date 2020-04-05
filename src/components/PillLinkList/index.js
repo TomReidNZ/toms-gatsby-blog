@@ -1,0 +1,31 @@
+import React from "react";
+import { Link } from "gatsby";
+import { Badge } from "react-bootstrap";
+
+const PillLinkList = ({ items, getItemRoute}) => {
+
+  if (!items || items.length === 0) return "";
+  return (
+    <ul className="tag-list topics-tags-list">
+      {items.map(item => (
+        <li className="topic-tag-button" key={item}>
+          <Link
+            className="article-badge-link"
+            to={getItemRoute(item)}
+            aria-pressed="true"
+          >
+            <div
+              className="badge badge-pill badge-light article-list-button"
+              // id="article-list-button"
+              id={item.slug}
+            >
+              {item.title}
+            </div>
+          </Link>
+        </li>
+      ))}
+    </ul>
+  );
+};
+
+export default PillLinkList;

@@ -1,0 +1,35 @@
+h1,
+p {
+  text-align: center;
+  color: #e4e4e4;
+}
+.col-md-10 {
+  margin: 0 auto;
+}
+.jumbotron {
+  background: url(./a.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 50vh;
+  margin-bottom: 0;
+  min-height: 480px;
+  padding-top:100px;
+}
+.hi-im-tom{
+    font-size:23pt;
+    font-weight:bold;
+    margin-bottom: 18px;
+    color:white !important;
+}
+.hi-im-tom-description{
+    font-size:11pt;
+    font-weight:300;
+    color: #e4e4e4;
+    line-height:19px;
+}
+@media only screen and (min-width: 992px) {
+  .jumbotron {
+margin-bottom:8px;}
+}

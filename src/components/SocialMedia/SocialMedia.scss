@@ -1,0 +1,85 @@
+.github{
+    background: url(./ic_github.svg);
+    width: 50px;
+    height: 50px;
+}
+#github{
+    transition: background-color 1s;
+}
+#github:hover{
+    background-color: #008DCE;
+}
+#twitter{
+    transition: background-color 1s;
+}
+#twitter:hover{
+    background-color: #00aced;
+}
+#email{
+    transition: background-color 1s;
+}
+#email:hover{
+    background-color: #10aee8;
+}
+#linkedin{
+    transition: background-color 1s;
+}
+#linkedin:hover{
+    background-color: #0077B5;
+}
+.linkedin{
+    background: url(./ic_linkedin.svg);
+    width: 50px;
+    height: 50px;
+}
+.email{
+    background: url(./ic_email.svg);
+    width: 50px;
+    height: 50px;
+    // -webkit-transition: position, left, top 1s;
+    // transition: position, left, top 1s;
+    // -webkit-transition: width, height 2s;
+    // transition: width, height 2s;
+
+}
+// .email:hover{
+//     width:40px;
+//     height:40px;
+//     position:relative;
+//     left:5px;
+//     top:5px
+// }
+.twitter{
+    background: url(./ic_twitter.svg);
+    width: 50px;
+    height: 50px;
+}
+.SEO-Bar{
+    list-style-type : none;
+    display:inline-block;
+    text-align:center;
+    margin:0 auto;
+    padding-left:0;
+}
+.footer-button{
+    float:left;
+    margin:0 15px;
+}
+.footer-list-items{
+    display:inline-block;
+    margin: 0 auto;
+}
+.SEO-center-container{
+    display:flex;
+}
+.footer-button{
+    border-radius:25px;
+    height:50px;
+    width:50px;
+    // -webkit-transition: background-color 1s; /* Safari */
+    // transition: background-color 1s;
+  
+}
+// .footer-button:hover{
+//     background-color: #10AEE8;
+// }

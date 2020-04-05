@@ -1,0 +1,97 @@
+#about-main h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif !important;
+}
+
+#about-main h3 {
+  font-size: 15pt;
+  font-weight: 600;
+}
+
+#about-main h4 {
+  font-size: 12pt;
+  font-weight: 600;
+}
+#about-main #social-button {
+  float: left;
+}
+
+#about-main .about-list-text {
+  float: left;
+}
+#about-main .about-list-items {
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#about-main {
+  padding: 57px 37px 37px 37px;
+}
+#about-main .about-tom-reid {
+  font-size: 23pt;
+  font-weight: 700;
+  margin-bottom: 6px;
+  // letter-spacing:0.4px;
+}
+#about-main .about-ml-specialist {
+  margin-bottom: 25px;
+}
+#about-social-main h4 {
+  margin-top: 5px;
+  height: 22px;
+}
+
+#about-social-main .footer-button {
+  margin-left: 0;
+  margin-right: 25px;
+}
+
+#about-social-main .about-list-link {
+  color: #10aee8;
+  transition: color 0.5s;
+}
+#about-social-main .about-list-link:hover {
+  color: #03a5e3;
+}
+#about-social-main .about-list-link:active {
+  color: #026d96;
+}
+.about-text-container p {
+  text-align: left !important;
+  font-size: 11pt;
+  font-weight: 300;
+  color: #e4e4e4;
+  line-height: 19px;
+}
+.SocialMediaAbout-main .SEO-Bar{
+    margin-bottom:25px;
+}
+@media only screen and (min-width: 992px) {
+  .about-text-container{
+    padding-right:50px;
+  }
+    #about-social-main{
+        float:right;
+    }
+.about-text-container{
+    width: calc(100% - 320px);
+    display:inline-block;
+}
+.about-list-items{
+    padding-top: 0 !important;
+    padding-bottom:30px !important;
+}
+}
+
+// #about-main h5, h6{
+//     font-size:10pt;
+//     font-weight:600;
+// }
+// #about-social-main{
+//     display:none;
+// }
