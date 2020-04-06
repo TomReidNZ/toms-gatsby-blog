@@ -4,7 +4,6 @@
   "version": "1.1.0",
   "author": "Ruben Harutyunyan <vagr9k@gmail.com>",
   "scripts": {
-    "start": "npm run develop",
     "develop": "gatsby develop",
     "dev": "npm run develop",
     "serve": "gatsby serve",
@@ -13,9 +12,10 @@
     "build:gh": "npm run clean && npm run build:pp && gh-pages -d public",
     "clean": "rm -rf public && rm -rf .cache",
     "lint:js": "eslint --ext .js,.jsx .",
-    "lint:md": "remark content/posts/",
+    "lint:md": "remark content/",
     "write-good": "write-good $(glob 'content/posts/**/*.md')",
-    "format:js": "prettier '**/*.{js,jsx}' --write"
+    "format:js": "prettier '**/*.{js,jsx}' --write",
+    "format:styles": "prettier '**/*.{css,scss}' --write"
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
