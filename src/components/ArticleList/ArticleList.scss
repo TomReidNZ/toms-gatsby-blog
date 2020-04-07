@@ -6,7 +6,7 @@
 .article-list-button{
   font-size:12px;
 }
-#links:hover,
+.links:hover,
 .title-article:hover {
   color: #10aee8 !important;
 }
@@ -14,7 +14,7 @@
   text-decoration: none;
 }
 
-#links:active,
+.links:active,
 .title-article:active{
   color: #026D96 !important;
 }
@@ -99,9 +99,9 @@ color:#e4e4e4;
 h4 {
   margin-bottom: 0;
 }
-#links {
-  color: #e4e4e4;
-  transition: color 1s;
+.links {
+  color: #e4e4e4 !important;
+  transition: color 1s !important;
 }
 .title-article {
     font-weight:bold;
