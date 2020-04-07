@@ -25,6 +25,9 @@ const dateToLoad = (dateToSplit, dateUsed) => {
     } else {
       followingChars = "th ";
     }
+    if (newDate[0] == 0) {
+      newSubstring2 = 9;
+    }
   } else if (dateUsed === "month") {
     newSubstring1 = 7;
     newSubstring2 = 5;
