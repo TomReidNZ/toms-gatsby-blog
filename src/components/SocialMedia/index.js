@@ -8,7 +8,7 @@ const SocialMedia = ({ userLinks }) => (
     {userLinks.map(userLink => (
       <li className="footer-list-items" key={userLink.label}>
         <a className="footer-button" href={userLink.url} id={userLink.image}>
-          <div className={userLink.image} id="social-button" />
+          <div className={`social-button ${userLink.image}`}/>
         </a>
       </li>
     ))}
