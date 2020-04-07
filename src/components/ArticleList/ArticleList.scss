@@ -7,7 +7,7 @@
   font-size:12px;
 }
 #links:hover,
-#title-article:hover {
+.title-article:hover {
   color: #10aee8 !important;
 }
 .card-body a {
@@ -15,7 +15,7 @@
 }
 
 #links:active,
-#title-article:active{
+.title-article:active{
   color: #026D96 !important;
 }
 .badge-light:hover{
@@ -103,7 +103,7 @@ h4 {
   color: #e4e4e4;
   transition: color 1s;
 }
-#title-article {
+.title-article {
     font-weight:bold;
     color: #e4e4e4;
     transition: color 1s;
@@ -133,7 +133,7 @@ h4 {
   padding-bottom:0;
   padding-top:23px
 }
-#title-article {
+.title-article {
   font-weight:600;
   color: #ffffff;
 
