@@ -11,7 +11,7 @@ const PillLinkList = ({ items, getItemRoute}) => {
           <Link
             className="article-badge-link"
             to={`/${getItemRoute(item)}`}
-            aria-pressed="true"
+            // aria-pressed="true"
           >
             <div
               className="badge badge-pill badge-light article-list-button"
