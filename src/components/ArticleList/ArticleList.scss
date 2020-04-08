@@ -6,16 +6,16 @@
 .article-list-button{
   font-size:12px;
 }
-#links:hover,
-#title-article:hover {
+.links:hover,
+.title-article:hover {
   color: #10aee8 !important;
 }
 .card-body a {
   text-decoration: none;
 }
 
-#links:active,
-#title-article:active{
+.links:active,
+.title-article:active{
   color: #026D96 !important;
 }
 .badge-light:hover{
@@ -99,11 +99,11 @@ color:#e4e4e4;
 h4 {
   margin-bottom: 0;
 }
-#links {
-  color: #e4e4e4;
-  transition: color 1s;
+.links {
+  color: #e4e4e4 !important;
+  transition: color 1s !important;
 }
-#title-article {
+.title-article {
     font-weight:bold;
     color: #e4e4e4;
     transition: color 1s;
@@ -133,13 +133,13 @@ h4 {
   padding-bottom:0;
   padding-top:23px
 }
-#title-article {
+.title-article {
   font-weight:600;
   color: #ffffff;
 
 }
 
 }
-#artificial-intelligence{
+.artificial-intelligence{
   background-color:#10aee8;
 }
