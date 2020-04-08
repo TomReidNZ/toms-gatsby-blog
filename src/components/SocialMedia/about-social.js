@@ -5,8 +5,8 @@ const SocialMediaAbout = () => (
   <div className="SocialMediaAbout-main">
 <ul className="SEO-Bar">
       <li className="about-list-items" key="linkedin">
-        <a className="footer-button" href={"https://linkedin.com/in/tomreidnz"} id="linkedin">
-          <div className="linkedin" id="social-button" />
+        <a className="footer-button linkedin" href={"https://linkedin.com/in/tomreidnz"}>
+          <div className="linkedin social-button"/>
         </a>
         <div className="about-list-text">
         <h4>LinkedIn</h4>
@@ -14,8 +14,8 @@ const SocialMediaAbout = () => (
         </div>
       </li>
       <li className="about-list-items" key="github">
-        <a className="footer-button" href={"https://github.com/tomreidnz"} id="github">
-          <div className="github" id="social-button" />
+        <a className="footer-button github" href={"https://github.com/tomreidnz"}>
+          <div className="github social-button"/>
         </a>
         <div className="about-list-text">
         <h4>GitHub</h4>
@@ -23,8 +23,8 @@ const SocialMediaAbout = () => (
         </div>
       </li>
       <li className="about-list-items" key="twitter">
-        <a className="footer-button" href={"https://twitter.com/tomreidnz"} id="twitter">
-          <div className="twitter" id="social-button" />
+        <a className="footer-button twitter" href={"https://twitter.com/tomreidnz"}>
+          <div className="twitter social-button"/>
         </a>
         <div className="about-list-text">
         <h4>Twitter</h4>
@@ -32,8 +32,8 @@ const SocialMediaAbout = () => (
         </div>
       </li>
       <li className="about-list-items" key="email">
-        <a className="footer-button" href={"mailto:tom@tomreid.ai"} id="email">
-          <div className="email" id="social-button" />
+        <a className="footer-button email" href={"mailto:tom@tomreid.ai"}>
+          <div className="email social-button"/>
         </a>
         <div className="about-list-text">
         <h4>Email</h4>
