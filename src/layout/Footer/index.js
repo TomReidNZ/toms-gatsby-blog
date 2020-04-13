@@ -9,7 +9,7 @@ import config from "../../../data/SiteConfig";
 import SocialMedia from "../../components/SocialMedia";
 // const items = ["azure", "react"]
 var topicsToLoad = [
-  { title: "Artificial Intelligence", slug: "artificial-intelligence" },
+  { title: "AI", slug: "AI" },
   // { title: "Audio", slug: "audio" },
   { title: "Business", slug: "business" },
   // { title: "Deep Learning", slug: "deep-learning" },

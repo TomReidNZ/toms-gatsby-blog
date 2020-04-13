@@ -4,7 +4,7 @@ slug: "example-build"
 cover: "https://unsplash.it/1152/300/?random?TheButterflyoftheEdge"
 date: "2019-02-02"
 topics: 
-    - "artificial-intelligence"
+    - "AI"
     - "cloud"
     - "devops"
     - "ethics"

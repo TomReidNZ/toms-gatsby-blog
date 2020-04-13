@@ -23,7 +23,7 @@ const SiteHeader = () => (
               >
                 home
               </Link>
-            </li>
+            </div>
             <div className="nav-item">
               <Link
                 to="/about"
@@ -33,7 +33,7 @@ const SiteHeader = () => (
               >
                 about
               </Link>
-            </li>
+            </div>
           </Nav>
         </Navbar.Collapse>
       </Container>

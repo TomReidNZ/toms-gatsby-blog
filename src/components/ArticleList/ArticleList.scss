@@ -6,6 +6,7 @@
 .article-list-button{
   font-size:12px;
   color:#FFFFFF !important;
+  min-width: 80px;
 }
 .links:hover,
 .title-article:hover {
@@ -64,7 +65,7 @@
   width: auto;
   float: left;
   padding: 0;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 .topic-tag-button {
   margin: 5px 15px 5px 0;
@@ -125,7 +126,7 @@ h4 {
   padding:25px 25px;
 }
 .topics-tags-list{
-  margin:10px 0 20px 0;
+  margin:10px 0 15px 0;
 }
 .post-list__item{
   padding-bottom:0;
@@ -138,6 +139,10 @@ h4 {
 }
 
 }
-.artificial-intelligence{
-  background-color:#03a5e3;
+.AI{
+//  background-color:#03a5e3;
+//background-color: #037FB0;
+background-color: #03a5e3;
+-webkit-text-stroke: 0.2px black;
+    font-size: 13px
 }
