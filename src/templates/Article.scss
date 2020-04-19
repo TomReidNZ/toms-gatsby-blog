@@ -7,6 +7,7 @@
 {
   text-align: left !important;
   color: #10aee8;
+  width : 100%;
   animation-name: four;
   animation-duration: 1s;
 }
@@ -144,13 +145,10 @@ font-weight:600;
     height: auto;
     display: inline-block;
   }
-  #blog-title {
-    float: left;
-  }
-  #blog-date {
-    float: right;
-    margin: 29px 0 0px 0;
-  }
+  // #blog-title {
+  //   float: left;
+  // }
+
   #blog-container .topics-tags-list {
     margin-top: 5px;
   }
@@ -169,5 +167,11 @@ font-weight:600;
     #blog-container{
       padding-left:0;
       padding-right:0;
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    #blog-date {
+      float: right;
+      margin: 29px 0 0px 0;
     }
   }
