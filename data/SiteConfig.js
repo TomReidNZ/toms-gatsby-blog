@@ -11,7 +11,7 @@ const config = {
   siteFBAppID: "1825356251115265", // FB Application ID for using app insights
   googleAnalyticsID: "UA-141660058-1", // GA tracking ID.
   disqusShortname: "https-vagr9k-github-io-gatsby-advanced-starter", // Disqus shortname.
-  postDefaultTopicID: "artificial-intelligence", // Default topic for posts.
+  postDefaultTopicID: "AI", // Default topic for posts.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
   userName: "Tom Reid", // Username to display in the author segment.P
@@ -52,8 +52,8 @@ const config = {
   ],
   topics: [
     {
-      title: "Artificial Intelligence",
-      slug: "artificial-intelligence",
+      title: "AI",
+      slug: "ai",
       description: "aculis at erat pellentesque adipiscing commodo elit at imperdiet. Pulvinar etiam non quam lacus suspendisse faucibus. Sit amet nisl purus in mollis nunc. Mollis aliquam ut porttitor leo a diam sollicitudin tempor.",
       cover: "https://spaceholder.cc/400x300"
     },

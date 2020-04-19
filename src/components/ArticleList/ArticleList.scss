@@ -1,11 +1,24 @@
 @import "src/styles/variables.scss";
 
+.blog-card{
+  animation-name: example;
+  animation-duration: 1s;
+}
+
+@keyframes example {
+  0%   {opacity: 0.4;}
+  100% {opacity: 1;}
+}
+
+
 .post-list__item {
   padding: 0 0 20px 0;
 }
 .article-list-button{
   font-size:12px;
   color:#FFFFFF !important;
+  min-width: 80px;
+  transition: color 1s;
 }
 .links:hover,
 .title-article:hover {
@@ -20,11 +33,17 @@
   color: #026D96 !important;
 }
 .badge-light:hover{
-  background-color: #10aee8 !important;
+//  background-color: #10aee8 !important;
 }
 .article-list-button:active{
-  background-color: #026D96 !important;
+//  background-color: #026D96 !important;
+  color: #10aee8 !important;
 }
+
+.article-list-button:hover{
+  //  background-color: #026D96 !important;
+    color: #10aee8 !important;
+  }
 
 @media only screen and (min-width: 568px) {
   .post-list__item {
@@ -64,7 +83,7 @@
   width: auto;
   float: left;
   padding: 0;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 .topic-tag-button {
   margin: 5px 15px 5px 0;
@@ -82,14 +101,32 @@
   background-color: #444444;
   padding: 6px 20px;
   font-weight: bold;
-  transition: background-color 1s;
-
+//  transition: background-color 1s;
+  transition: color 1s;
 }
-
+.article-list-button{
+  transition: color 1s;
+}
 .main-page-body {
   padding-left: 0 !important;
   padding-right: 0 !important;
+  background-color: #151515;
+  animation-name: two;
+  animation-duration: 1s;
+  // animation-name: three;
+  // animation-duration: 2s;
 }
+
+@keyframes two {
+  0%   {opacity: 0.4;}
+  100% {opacity: 1;}
+}
+
+// @keyframes three {
+//   0%   {background-color: #000000;}
+//   100% {background-color: #151515;}
+// }
+
 .card-title {
   margin-bottom: 0;
   width: 100%;
@@ -103,9 +140,9 @@ h4 {
 }
 .title-article {
     font-weight:bold;
-    color: #e4e4e4;
+    // color: #e4e4e4;
     transition: color 1s;
-
+    color : #3abaea !important
 }
 @media only screen and (min-width: 992px) {
   .article-date{
@@ -125,7 +162,7 @@ h4 {
   padding:25px 25px;
 }
 .topics-tags-list{
-  margin:10px 0 20px 0;
+  margin:10px 0 15px 0;
 }
 .post-list__item{
   padding-bottom:0;
@@ -133,11 +170,13 @@ h4 {
 }
 .title-article {
   font-weight:600;
-  color: #ffffff;
-
 }
 
 }
-.artificial-intelligence{
-  background-color:#10aee8;
+.AI{
+//  background-color:#03a5e3;
+//background-color: #037FB0;
+background-color: #03a5e3;
+-webkit-text-stroke: 0.2px black;
+    font-size: 13px
 }

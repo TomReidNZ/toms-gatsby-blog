@@ -1,8 +1,19 @@
-#blog-title,
 #blog-date,
 #blog-main {
   text-align: left !important;
   color: white;
+}
+#blog-title
+{
+  text-align: left !important;
+  color: #10aee8;
+  animation-name: four;
+  animation-duration: 1s;
+}
+
+@keyframes four {
+  0%   {color: #FFFFFF;}
+  100% {color: #10aee8;}
 }
 #blog-main p,
 li {
@@ -39,7 +50,16 @@ h6 {
 }
 #blog-container {
   padding: 35px;
+  background-color: #151515;
+  animation-name: three;
+  animation-duration: 1s;
 }
+
+@keyframes three {
+  0%   {opacity: 0.4;}
+  100% {opacity: 1;}
+}
+
 #blog-date {
   font-size: 14px;
   font-weight: 300;

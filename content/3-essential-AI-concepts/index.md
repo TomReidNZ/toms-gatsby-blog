@@ -4,7 +4,7 @@ slug: "3-essential-AI-concepts-for-business"
 cover: "https://unsplash.it/1152/300/?random?BirchintheRoses"
 date: "2019-06-08"
 topics:
-    - "artificial-intelligence"
+    - "ai"
     - "technology"
     - "business"
 tags:
@@ -15,19 +15,19 @@ The age of AI is upon us – innovative technologies are appearing, and industri
 
 ## 1. Predictions
 
-AI is software that uses predictions. AI predicts spam emails to keep them out of your inbox. In your industry, a prediction might be a patient’s chance of having a heart attack, the rate of business growth, or if a school will need intervention to improve student outcomes.
+AI is software that uses predictions. AI predicts spam emails to keep them out of your inbox. In your industry, a prediction might be a patient's chance of having a heart attack, the rate of business growth, or if a school will need intervention to improve student outcomes.
 
 You then need to do something with that prediction, whether it is alert a nurse via an app, hire more staff, or ignore the prediction as it was not actionable.
 
 > ### Key question
 >
-> ##### *“What are you trying to predict?”*
+> ##### *"What are you trying to predict?"*
 
 ## 2. Industry expertise
 
 An AI practitioner might build a solution that predicts whether a patient will have a heart attack within the next 12 hours, but in practice that information might not be actionable. Or heart attacks are not the highest priority, and investigating sepsis predictions should come first.
 
-Finding the right thing to predict is asking the right question, such as “will a patient have a heart attack within the next 4 hours?” and “is there a greater than 99% chance this transaction is fraudulent?”
+Finding the right thing to predict is asking the right question, such as "will a patient have a heart attack within the next 4 hours?" and "is there a greater than 99% chance this transaction is fraudulent?"
 
 It is vital that domain experts work with AI practitioners to produce the right questions.
 
@@ -35,7 +35,7 @@ An AI practitioner can build the predictive tools, but domain experts must help 
 
 > ### Key question
 >
-> ##### *“How will this use case provide value in our industry?”*
+> ##### *"How will this use case provide value in our industry?"*
 
 ## 3. Data
 
@@ -47,13 +47,13 @@ You can always retrain predictive models with better data. If you have a good da
 
 > ### Key question
 >
-> ##### *“What data is obtainable, and will the data structure stay consistent?”*
+> ##### *"What data is obtainable, and will the data structure stay consistent?"*
 
 ## Summary
 
 You do not need to be an AI expert to achieve success with AI. Rather, you need to knowledge specific to your industry, and know how to strategically approach improving business processes with AI. Asking the right questions will help you find the right technology partner to make your projects successful.
 
-Often, you will see references to AI-models, machine learning models, and deep learning models. They all mean the same thing – predictive models. Also, the prediction itself is also known as a ‘label’, and each data point that is sent to the predictive model is known as a ‘feature’.
+Often, you will see references to AI-models, machine learning models, and deep learning models. They all mean the same thing – predictive models. Also, the prediction itself is also known as a 'label', and each data point that is sent to the predictive model is known as a 'feature'.
 
 ## Extra Resources
 
