@@ -171,7 +171,10 @@ font-weight:600;
   }
   @media only screen and (min-width: 1200px) {
     #blog-date {
-      float: right;
+      float: left;
       margin: 29px 0 0px 0;
+      width: 96px;
     }
+
+
   }
