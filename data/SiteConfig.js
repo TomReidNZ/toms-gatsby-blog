@@ -53,7 +53,7 @@ const config = {
   topics: [
     {
       title: "AI",
-      slug: "AI",
+      slug: "ai",
       description: "aculis at erat pellentesque adipiscing commodo elit at imperdiet. Pulvinar etiam non quam lacus suspendisse faucibus. Sit amet nisl purus in mollis nunc. Mollis aliquam ut porttitor leo a diam sollicitudin tempor.",
       cover: "https://spaceholder.cc/400x300"
     },

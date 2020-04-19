@@ -90,6 +90,7 @@ const dateToLoad = (dateToSplit, dateUsed) => {
 };
 const ArticleList = ({ title, articles, pagination }) => {
   if (!articles || articles.length === 0) return <NoResults />;
+  console.log(articles);
   return (
     <>
       {title ? <h2>{title}</h2> : ""}

@@ -4,7 +4,7 @@ slug: "3-essential-AI-concepts-for-business"
 cover: "https://unsplash.it/1152/300/?random?BirchintheRoses"
 date: "2019-06-08"
 topics:
-    - "AI"
+    - "ai"
     - "technology"
     - "business"
 tags:

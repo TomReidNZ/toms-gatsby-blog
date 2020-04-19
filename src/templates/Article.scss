@@ -1,8 +1,19 @@
-#blog-title,
 #blog-date,
 #blog-main {
   text-align: left !important;
   color: white;
+}
+#blog-title
+{
+  text-align: left !important;
+  color: #10aee8;
+  animation-name: four;
+  animation-duration: 1s;
+}
+
+@keyframes four {
+  0%   {color: #FFFFFF;}
+  100% {color: #10aee8;}
 }
 #blog-main p,
 li {
@@ -40,14 +51,13 @@ h6 {
 #blog-container {
   padding: 35px;
   background-color: #151515;
-  animation-name: two;
-  animation-duration: 2s;
+  animation-name: three;
+  animation-duration: 1s;
 }
 
-@keyframes two {
-  0%   {opacity: 0;background-color: #000000;}
-  50%  {opacity: 0.9;}
-  100% {opacity: 1;background-color: #151515;}
+@keyframes three {
+  0%   {opacity: 0.4;}
+  100% {opacity: 1;}
 }
 
 #blog-date {
