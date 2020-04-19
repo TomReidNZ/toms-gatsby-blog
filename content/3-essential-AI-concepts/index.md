@@ -2,7 +2,7 @@
 title: "The Three Essential Concepts for AI in Business"
 slug: "3-essential-AI-concepts-for-business"
 cover: "https://unsplash.it/1152/300/?random?BirchintheRoses"
-date: "2019-06-08"
+date: "2019-06-18"
 topics:
     - "ai"
     - "technology"
