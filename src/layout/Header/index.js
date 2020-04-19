@@ -14,7 +14,7 @@ const SiteHeader = () => (
         <Navbar.Toggle aria-controls="header-main-navigation" />
         <Navbar.Collapse id="header-main-navigation">
           <Nav>
-            <li className="nav-item">
+            <div className="nav-item">
               <Link
                 to="/"
                 className="nav-link"
@@ -23,8 +23,8 @@ const SiteHeader = () => (
               >
                 home
               </Link>
-            </li>
-            <li className="nav-item">
+            </div>
+            <div className="nav-item">
               <Link
                 to="/about"
                 className="nav-link"
@@ -33,7 +33,7 @@ const SiteHeader = () => (
               >
                 about
               </Link>
-            </li>
+            </div>
           </Nav>
         </Navbar.Collapse>
       </Container>
