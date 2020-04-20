@@ -1,9 +1,10 @@
+import "../styles/styles.scss";
+
 import React from "react";
 import Helmet from "react-helmet";
 import config from "../../data/SiteConfig";
 
 import "../styles/bootstrap.scss";
-import "../styles/styles.scss";
 
 import Header from "./Header";
 import Footer from "./Footer";
