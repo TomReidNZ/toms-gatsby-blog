@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("OpenSans-Bold.ttf"), url("OpenSans-BoldItalic.ttf"),
+    url("OpenSans-ExtraBold.ttf"), url("OpenSans-ExtraBoldItalic.ttf"),
+    url("OpenSans-Italic.ttf"), url("OpenSans-Light.ttf"),
+    url("OpenSans-LightItalic.ttf"), url("OpenSans-Regular.ttf"),
+    url("OpenSans-SemiBold.ttf"), url("OpenSans-SemiBoldItalic.ttf");
+}
