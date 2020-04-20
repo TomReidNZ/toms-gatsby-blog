@@ -6,18 +6,18 @@ body {
   background-color: #151515;
 }
 .see-all-articles {
-  border: none;
-  background-color: #242424;
+  border: none !important;
+  background-color: #242424 !important;
   margin: 0 auto;
   display: table;
   transition: background-color 1s;
   padding: 7px 13px;
 }
 .see-all-articles:hover {
-  background-color: #10aee8 !important;
+  color: #10aee8 !important;
 }
 .see-all-articles:active {
-  background-color: #026d96 !important;
+  color: #026d96 !important;
 }
 @media only screen and (min-width: 768px) {
   .footer-border-container {
