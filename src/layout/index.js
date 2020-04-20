@@ -18,15 +18,13 @@ export default class MainLayout extends React.Component {
           <Helmet>
             <meta name="description" content={config.siteDescription} />
             <html lang="en" />
-            <link
-              href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,500,600,700&display=swap"
+            {/* <link
+              href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap"
               rel="stylesheet"
-            />
-
-
+            /> */}
           </Helmet>
           <main>{children}</main>
-          <Footer config={config}  />
+          <Footer config={config} />
         </div>
       </>
     );
